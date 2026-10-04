@@ -1,0 +1,105 @@
+--- threads=1 run=1 ---
+n=100000000 warmup_threads=1 actual_threads=1
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=0.000e+00 reference_error=6.333e-13
+serial_seconds=0.231973 parallel_seconds=0.216898
+speedup=1.070 efficiency=1.070
+exit=0
+--- threads=1 run=2 ---
+n=100000000 warmup_threads=1 actual_threads=1
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=0.000e+00 reference_error=6.333e-13
+serial_seconds=0.214254 parallel_seconds=0.214902
+speedup=0.997 efficiency=0.997
+exit=0
+--- threads=1 run=3 ---
+n=100000000 warmup_threads=1 actual_threads=1
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=0.000e+00 reference_error=6.333e-13
+serial_seconds=0.230283 parallel_seconds=0.226897
+speedup=1.015 efficiency=1.015
+exit=0
+--- threads=1 run=4 ---
+n=100000000 warmup_threads=1 actual_threads=1
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=0.000e+00 reference_error=6.333e-13
+serial_seconds=0.218364 parallel_seconds=0.218043
+speedup=1.001 efficiency=1.001
+exit=0
+--- threads=1 run=5 ---
+n=100000000 warmup_threads=1 actual_threads=1
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=0.000e+00 reference_error=6.333e-13
+serial_seconds=0.240767 parallel_seconds=0.217914
+speedup=1.105 efficiency=1.105
+exit=0
+--- threads=2 run=1 ---
+n=100000000 warmup_threads=2 actual_threads=2
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=5.165e-13 reference_error=1.168e-13
+serial_seconds=0.214234 parallel_seconds=0.118151
+speedup=1.813 efficiency=0.907
+exit=0
+--- threads=2 run=2 ---
+n=100000000 warmup_threads=2 actual_threads=2
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=5.165e-13 reference_error=1.168e-13
+serial_seconds=0.240557 parallel_seconds=0.157522
+speedup=1.527 efficiency=0.764
+exit=0
+--- threads=2 run=3 ---
+n=100000000 warmup_threads=2 actual_threads=2
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=5.165e-13 reference_error=1.168e-13
+serial_seconds=0.256680 parallel_seconds=0.172017
+speedup=1.492 efficiency=0.746
+exit=0
+--- threads=2 run=4 ---
+n=100000000 warmup_threads=2 actual_threads=2
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=5.165e-13 reference_error=1.168e-13
+serial_seconds=0.302541 parallel_seconds=0.193812
+speedup=1.561 efficiency=0.781
+exit=0
+--- threads=2 run=5 ---
+n=100000000 warmup_threads=2 actual_threads=2
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=5.165e-13 reference_error=1.168e-13
+serial_seconds=0.219858 parallel_seconds=0.152156
+speedup=1.445 efficiency=0.722
+exit=0
+--- threads=4 run=1 ---
+n=100000000 warmup_threads=4 actual_threads=4
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=7.438e-13 reference_error=1.106e-13
+serial_seconds=0.215406 parallel_seconds=0.130980
+speedup=1.645 efficiency=0.411
+exit=0
+--- threads=4 run=2 ---
+n=100000000 warmup_threads=4 actual_threads=4
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=7.438e-13 reference_error=1.106e-13
+serial_seconds=0.216187 parallel_seconds=0.114018
+speedup=1.896 efficiency=0.474
+exit=0
+--- threads=4 run=3 ---
+n=100000000 warmup_threads=4 actual_threads=4
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=7.438e-13 reference_error=1.106e-13
+serial_seconds=0.212803 parallel_seconds=0.128416
+speedup=1.657 efficiency=0.414
+exit=0
+--- threads=4 run=4 ---
+n=100000000 warmup_threads=4 actual_threads=4
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=7.438e-13 reference_error=1.106e-13
+serial_seconds=0.218759 parallel_seconds=0.109784
+speedup=1.993 efficiency=0.498
+exit=0
+--- threads=4 run=5 ---
+n=100000000 warmup_threads=4 actual_threads=4
+serial_pi=3.141592653590 parallel_pi=3.141592653590
+difference=7.438e-13 reference_error=1.106e-13
+serial_seconds=0.231376 parallel_seconds=0.154297
+speedup=1.500 efficiency=0.375
+exit=0

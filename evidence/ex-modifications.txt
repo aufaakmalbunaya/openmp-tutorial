@@ -1,0 +1,12 @@
+=== Ex3 mod: alpha=2 ===
+alpha=2.0 c[0]=0.0 c[n-1]=3999996.0 errors=0
+exit=0
+=== Ex3 mod: separate parallel+for ===
+separate-form: c[0]=0.0 c[n-1]=2999997.0 errors=0
+exit=0
+=== Ex4 mod: sum of squares n=1000 ===
+sum of squares 1..1000: expected=333833500 got=333833500 OK
+exit=0
+=== Ex6 mod: nowait + explicit barrier ===
+nowait+barrier: mean=6.5 first=-5.5 last=5.5 sum=0.0
+exit=0

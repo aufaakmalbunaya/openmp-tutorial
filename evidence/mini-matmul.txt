@@ -1,0 +1,42 @@
+=== matmul n=128 threads=1 ===
+n=128 threads=1
+identity_check: serial_vs_A=0.000e+00 parallel_vs_A=0.000e+00
+verify: parallel_vs_serial=0.000e+00 collapse_vs_serial=0.000e+00 tol=1e-09 OK
+time_serial=0.003450 time_parallel=0.003724 time_collapse=0.003433
+speedup_parallel=0.926 speedup_collapse=1.005
+exit=0
+=== matmul n=128 threads=2 ===
+n=128 threads=2
+identity_check: serial_vs_A=0.000e+00 parallel_vs_A=0.000e+00
+verify: parallel_vs_serial=0.000e+00 collapse_vs_serial=0.000e+00 tol=1e-09 OK
+time_serial=0.003207 time_parallel=0.001852 time_collapse=0.001858
+speedup_parallel=1.732 speedup_collapse=1.726
+exit=0
+=== matmul n=128 threads=4 ===
+n=128 threads=4
+identity_check: serial_vs_A=0.000e+00 parallel_vs_A=0.000e+00
+verify: parallel_vs_serial=0.000e+00 collapse_vs_serial=0.000e+00 tol=1e-09 OK
+time_serial=0.003710 time_parallel=0.002486 time_collapse=0.003224
+speedup_parallel=1.492 speedup_collapse=1.151
+exit=0
+=== matmul n=256 threads=1 ===
+n=256 threads=1
+identity_check: serial_vs_A=0.000e+00 parallel_vs_A=0.000e+00
+verify: parallel_vs_serial=0.000e+00 collapse_vs_serial=0.000e+00 tol=1e-09 OK
+time_serial=0.048773 time_parallel=0.069817 time_collapse=0.042821
+speedup_parallel=0.699 speedup_collapse=1.139
+exit=0
+=== matmul n=256 threads=2 ===
+n=256 threads=2
+identity_check: serial_vs_A=0.000e+00 parallel_vs_A=0.000e+00
+verify: parallel_vs_serial=0.000e+00 collapse_vs_serial=0.000e+00 tol=1e-09 OK
+time_serial=0.043495 time_parallel=0.021731 time_collapse=0.026347
+speedup_parallel=2.001 speedup_collapse=1.651
+exit=0
+=== matmul n=256 threads=4 ===
+n=256 threads=4
+identity_check: serial_vs_A=0.000e+00 parallel_vs_A=0.000e+00
+verify: parallel_vs_serial=0.000e+00 collapse_vs_serial=0.000e+00 tol=1e-09 OK
+time_serial=0.042238 time_parallel=0.023298 time_collapse=0.021386
+speedup_parallel=1.813 speedup_collapse=1.975
+exit=0

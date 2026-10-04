@@ -1,0 +1,30 @@
+=== Ex7: threads=1 ===
+task=0 result=0 executed_by=0
+task=1 result=1 executed_by=0
+task=2 result=4 executed_by=0
+task=3 result=9 executed_by=0
+task=4 result=16 executed_by=0
+task=5 result=25 executed_by=0
+task=6 result=36 executed_by=0
+task=7 result=49 executed_by=0
+exit=0
+=== Ex7: threads=2 ===
+task=0 result=0 executed_by=1
+task=1 result=1 executed_by=0
+task=2 result=4 executed_by=0
+task=3 result=9 executed_by=0
+task=4 result=16 executed_by=0
+task=5 result=25 executed_by=0
+task=6 result=36 executed_by=0
+task=7 result=49 executed_by=0
+exit=0
+=== Ex7: threads=4 ===
+task=0 result=0 executed_by=3
+task=1 result=1 executed_by=3
+task=2 result=4 executed_by=3
+task=3 result=9 executed_by=3
+task=4 result=16 executed_by=3
+task=5 result=25 executed_by=3
+task=6 result=36 executed_by=3
+task=7 result=49 executed_by=3
+exit=0

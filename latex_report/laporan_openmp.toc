@@ -1,0 +1,16 @@
+\babel@toc {indonesian}{}\relax 
+\contentsline {section}{\numberline {1}Lingkungan}{2}{section.1}%
+\contentsline {section}{\numberline {2}Exercise 1: Membuat tim thread}{2}{section.2}%
+\contentsline {section}{\numberline {3}Exercise 2: Data shared dan private}{3}{section.3}%
+\contentsline {section}{\numberline {4}Exercise 3: Paralelisasi penjumlahan vektor}{4}{section.4}%
+\contentsline {section}{\numberline {5}Exercise 4: Akumulasi aman dengan reduction}{4}{section.5}%
+\contentsline {section}{\numberline {6}Exercise 5: Perbandingan loop schedule}{5}{section.6}%
+\contentsline {section}{\numberline {7}Exercise 6: Koordinasi fase dependen}{6}{section.7}%
+\contentsline {section}{\numberline {8}Exercise 7: Membuat task independen}{6}{section.8}%
+\contentsline {section}{\numberline {9}Exercise 8: Kebenaran numerik dan speedup}{7}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Tabel ringkasan (median 5 run)}{7}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Validasi numerik}{7}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Penjelasan skala dan jawaban pertanyaan akhir}{7}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Mini-project: Perkalian matriks paralel}{9}{section.10}%
+\contentsline {section}{\numberline {11}Refleksi: satu bug dan diagnosisnya}{10}{section.11}%
+\contentsline {section}{\numberline {12}Reproduksi}{10}{section.12}%

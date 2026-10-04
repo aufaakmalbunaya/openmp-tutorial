@@ -1,0 +1,3 @@
+=== Ex6: 4 threads ===
+mean=6.5 first=-5.5 last=5.5 sum=0.0
+exit=0

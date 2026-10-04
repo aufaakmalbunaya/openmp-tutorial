@@ -1,0 +1,30 @@
+=== Ex1: OMP_NUM_THREADS=1 ===
+Before: team size = 1
+Hello from thread 0 of 1
+After: team size = 1
+=== Ex1: OMP_NUM_THREADS=2 ===
+Before: team size = 1
+Hello from thread 0 of 2
+Hello from thread 1 of 2
+After: team size = 1
+=== Ex1: OMP_NUM_THREADS=4 (run 1) ===
+Before: team size = 1
+Hello from thread 1 of 4
+Hello from thread 0 of 4
+Hello from thread 2 of 4
+Hello from thread 3 of 4
+After: team size = 1
+=== Ex1: 4 threads (run 2) ===
+Before: team size = 1
+Hello from thread 1 of 4
+Hello from thread 2 of 4
+Hello from thread 0 of 4
+Hello from thread 3 of 4
+After: team size = 1
+=== Ex1: 4 threads (run 3) ===
+Before: team size = 1
+Hello from thread 2 of 4
+Hello from thread 0 of 4
+Hello from thread 3 of 4
+Hello from thread 1 of 4
+After: team size = 1

@@ -1,0 +1,6 @@
+=== Ex2: 4 threads ===
+thread=2 base=12 scratch=4
+thread=3 base=13 scratch=9
+thread=0 base=10 scratch=0
+thread=1 base=11 scratch=1
+Outside: base=10 scratch=-1

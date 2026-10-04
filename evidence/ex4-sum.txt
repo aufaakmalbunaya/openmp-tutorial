@@ -1,0 +1,18 @@
+=== Ex4: threads=1 ===
+Expected : 500000500000
+Reduction: 500000500000
+Atomic   : 500000500000
+Critical : 500000500000
+exit=0
+=== Ex4: threads=2 ===
+Expected : 500000500000
+Reduction: 500000500000
+Atomic   : 500000500000
+Critical : 500000500000
+exit=0
+=== Ex4: threads=4 ===
+Expected : 500000500000
+Reduction: 500000500000
+Atomic   : 500000500000
+Critical : 500000500000
+exit=0

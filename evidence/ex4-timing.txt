@@ -1,0 +1,6 @@
+=== Ex4: timing 3 methods, n=1e7, 4 threads ===
+n=10000000 reps=5 correct=15/15
+reduction: 0.002970 s/run
+atomic   : 0.230224 s/run
+critical : 0.508649 s/run
+exit=0
